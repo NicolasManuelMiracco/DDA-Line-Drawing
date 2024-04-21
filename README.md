@@ -1,2 +1,5 @@
 # DDA-Line-Drawing
-A C++ program that implements the Digital Differential Analyzer (DDA) algorithm to draw a line in a graphical window.
+
+One-line description: A C++ program that implements the Digital Differential Analyzer (DDA) algorithm to draw a line in a graphical window.
+
+Summary: This program uses the DDA line drawing algorithm, which is a simple and efficient method for rasterizing lines in computer graphics. The program calculates the differences Δx and Δy between two endpoints, determines the number of steps needed based on the maximum of the absolute values of Δx and Δy, and then increments x and y coordinates by small fractions to approximate the line. Each step results in placing a pixel at the rounded x and y values to visually represent the line on the screen. The graphics are managed using the `graphics.h` library, which initializes a graphical mode, allows pixel manipulation, and ensures the line is drawn on the screen. After drawing the line, the program waits for a user input to close the graphics display, ensuring the user can view the result. This approach provides a practical application of the DDA algorithm in C++ for educational or simple graphical projects.
